@@ -5,8 +5,8 @@ LABEL       MAINTAINER="https://github.com/Thielquis/"
 ENV         SERVER_NAME="CS Docker Server" \
             SERVER_PASSWORD="" \
             SERVER_NETWORKTYPE="SteamOnline" \
-            SERVER_GAMEPORT="27016" \
-            SERVER_STEAMPORT="27017" \
+            SERVER_GAMEPORT="27004" \
+            SERVER_STEAMPORT="27005" \
             SERVER_VAC="true" \
             SERVER_VOLUME="/app"
 
