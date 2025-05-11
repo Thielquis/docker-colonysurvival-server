@@ -9,8 +9,6 @@ ENV         SERVER_NAME="CS Docker Server" \
             SERVER_STEAMPORT="27005" \
             SERVER_VAC="true" \
             SERVER_VOLUME="/app"
-
-ENV         SERVER_STARTUP_ARGS="-batchmode -nographics start_server +server.gameport $SERVER_GAMEPORT +server.steamport $SERVER_STEAMPORT +server.networktype $SERVER_NETWORKTYPE +server.usevac $SERVER_VAC" \
             STEAM_HOME="/home/${USER}" \
             STEAM_USER="${USER}" \
             STEAM_LOGIN="anonymous"
