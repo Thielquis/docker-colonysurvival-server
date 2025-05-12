@@ -27,7 +27,7 @@ RUN         apt-get update && \
 			
 COPY        bin/    /
 
-EXPOSE      ${SERVER_GAMEPORT}/udp ${SERVER_STEAMPORT}/tcp
+EXPOSE      ${SERVER_GAMEPORT}/udp ${SERVER_GAMEPORT}/tcp ${SERVER_STEAMPORT}/tcp ${SERVER_STEAMPORT}/udp
 
 VOLUME      ["${SERVER_VOLUME}"]
 WORKDIR     ${SERVER_VOLUME}
